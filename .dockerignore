@@ -1,0 +1,68 @@
+# Virtual environments
+**/venv
+**/env
+**/.venv
+
+# Local database
+
+
+# Ignore local database files
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.dump
+**/*.sqlite3
+
+# Environment files
+**/.env
+**/.env.*
+.env
+env
+ENV
+postgresql.conf
+
+# Ignore Docker environment setups
+Dockerfile
+docker-compose.yml
+
+# Development files
+.git
+.gitignore
+**/.vscode
+**/.idea
+
+# Testing
+**/tests
+**/.pytest_cache
+**/.coverage
+**/htmlcov
+
+# Documentation
+README.md
+docs
+*.md
+*.log
+
+# Local media/static
+media
+staticfiles
+
+# CI/CD
+.github
+.gitlab-ci.yml
+
+# Standard app files to ignore (example)
+node_modules/
+dist/
+bin/
+obj/
+
+# Caches et fichiers compilés Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.tox/
